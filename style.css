@@ -1,0 +1,1117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    
+  	
+  	
+}
+.front-page{
+  background-image: linear-gradient(rgba(226, 113, 113, 0.7),rgba(63, 41, 149, 0.7)),url(img/ku2.jpg);
+
+  
+  height: 100%;
+   width: 100%;
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+  
+ 
+}
+.front-text h1{
+  margin-right: 130px;
+  
+}
+.front-text{
+  font-size: 20px;
+  padding-left:212px;
+  margin-right: 129px;
+  color: aliceblue;
+ 
+
+
+
+
+  
+}
+.front-text span{
+  color:rgb(201, 151, 90);
+
+}
+.img-one img{
+  height: 60%; 
+  width: 100%;
+  border-radius: 56px;
+  opacity:0.6;
+  
+  
+  
+}
+
+.secondpage{
+ 
+ 
+  text-align:center;
+  margin-bottom: 1px;
+  padding-top: 60px;
+  border: 5px solid black;
+  
+
+  
+}
+
+
+.column{
+  display:flex;
+  width:50%;
+ padding-top: 45px;
+  padding-left: 1px;
+  padding-right: 70px;
+  
+ 
+  
+}
+
+
+.boxes{
+  width:100px;
+  margin-left: 170px;
+  
+  
+}
+
+.boxes img{
+  display:block;
+  width:259%;
+  height:30%;
+  border-radius: 11px;
+  box-shadow: 5px 5px 10px rgba(36, 10, 140, 0.8);
+}
+
+.boxes img:hover{
+  transform: scale(1.4);
+  box-shadow: 5px 5px 10px rgba(138, 26, 26, 0.8);
+ 
+  
+}
+.boxes p{
+  width: 197%;
+  font-size: 11px;
+}
+.boxes h5{
+  width:169%;
+  text-align: left;
+}
+.boxes h4{
+  width:239%;
+  margin-top: 1px;
+  
+ 
+ 
+}
+
+.boxes hr{
+  box-shadow: 5px 5px 10px rgba(123, 6, 6, 0.8);
+  width:104px;
+}
+ .content{
+  display: grid;
+  grid-template-columns: 0fr 1fr 1fr;
+  padding-top: 0% ;
+  padding-right: 0%;
+  
+  column-gap: 150px;
+ 
+
+  
+ 
+  
+ } 
+ .content img{
+  padding-left: 105px;
+  border-radius: 67px;
+  box-shadow: 11px 1px 10px rgba(195, 97, 97, 0.8);
+  height: 70% ; 
+  
+ }
+ .link-text h2{
+  
+  font-size: 23px;
+  
+
+ }
+ .link-text{
+  width:200%;
+  
+  padding-top:130px;
+  text-align: start;
+  height: 60%;
+
+ }
+ 
+ 
+.tlink{
+  padding: 20px 50px;
+}
+  
+ 
+ 
+  
+.ver-line{
+  float: left;
+  width: 23%;
+  
+  border-right: 1px solid rgb(118, 113, 113);
+  margin-right: 10px;
+
+}
+.click{
+  display: flex;
+  height:9%;
+  margin-left: 19px;
+  width:170px;
+  margin-top:160px ;
+  align-items: center;
+ 
+ 
+  
+
+  
+  
+}
+.click a {
+  position: relative;
+  border: 3px solid black;
+  text-decoration: none;
+  color:black;
+  font-size: 15px;
+  font-weight: bold;
+  padding:10px 10px;
+ 
+}
+.click a span{
+  background-color: rgba(99, 85, 224, 0.4);
+  position: absolute;
+  
+  top:0;
+ 
+  left:0;
+  z-index:-1;
+
+
+}
+.click a:hover{
+  color: rgb(233, 90, 90);
+  transition:0.2s;
+
+}
+.click .transition{
+  width: 0px;
+  height: 40px;
+}
+.click a:hover .transition{
+  width:123px;
+  transition:0.8s;
+
+}
+
+.thirdpage{
+  text-align:center;
+  margin-bottom: 108px;
+  padding-top: 60px;
+  
+}
+.imgbox{
+  display: flex;
+  padding-left: 90px; 
+  padding-top: 80px;
+  
+  
+  
+  
+}
+.infra img{
+  width: 350px;
+    height:290px;
+    display: inline-block;
+    padding-right: 1px;
+  
+ 
+ 
+   
+  
+  
+  
+
+}
+.infra{
+  position: relative;
+ 
+ margin-right: 50px;
+  width:400px;
+}
+.infra:hover{
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(87, 63, 184, 0.8);
+  
+}
+.infra .textbox{
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+ padding: 1.5%;
+  width: 95%;
+  padding-top:5px;
+  border: 2px solid black;
+  background: black;
+  background: rgba(0, 0, 0, 0.7);
+  color:white;
+  text-align: start;
+  cursor: pointer;
+
+}
+.infra .textbox:hover{
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(184, 63, 63, 0.8);
+
+}
+.infra .textbox h4{
+  margin-top: 10px;
+  margin-left: 24px;
+}
+.click1{
+  
+  height:9%;
+  margin-left: 660px;
+  width:170px;
+  margin-top:100px ;
+ 
+ 
+  
+
+  
+  
+}
+.click1 a {
+  position: relative;
+  border: 3px solid black;
+  text-decoration: none;
+  color:black;
+  font-size: 15px;
+  font-weight: bold;
+  padding:10px 10px;
+ 
+}
+.click1 a span{
+  background-color: rgba(99, 85, 224, 0.4);
+  position: absolute;
+  
+  top:0;
+ 
+  left:0;
+  z-index:-1;
+
+
+}
+.click1 a:hover{
+  color: rgb(233, 90, 90);
+  transition:0.2s;
+
+}
+.click1 .transition{
+  width: 0px;
+  height: 40px;
+}
+.click1 a:hover .transition{
+  width:123px;
+  transition:0.8s;
+
+}
+
+
+.fourthpage{
+  display: flex;
+  padding-top: 35px;
+  padding-bottom: 123px;
+  
+  
+}
+.abtlecturer{
+  
+  margin-right: 49px;
+  padding-right: 0px;
+  padding-left: 56px;
+}
+.abtlecturer h2{
+  text-align: left;
+  padding-left: 186px;
+  
+  margin-right:197px;
+  
+}
+.accclass{
+  margin-top: 108px;
+ 
+ 
+}
+.accordion{
+  background-color: rgb(235, 223, 223);
+  width: 60%;
+  height: 8%;
+  text-align: left;
+  margin-left: 176px;
+  margin-top: 18px;
+  font-size: 16px;
+ cursor: pointer;
+ transition: 0.2s;
+ box-shadow: 5px 5px 10px rgba(124, 25, 5, 0.8);
+
+
+ 
+
+  
+  
+}
+.active, .accordion:hover{
+  border-color: rgb(49, 57, 164);
+  border-width: 3px;
+  background-color: rgb(141, 129, 129);
+  color:aliceblue
+  
+}
+.teachertext{
+  margin-left: 180px;
+  margin-right: 96px;
+  text-align: left;
+  display: none;
+  padding: 3%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+  
+    
+}
+.imglecturer img{
+  width: 434px;
+  height: 545px;
+  background-position: center;
+  background-size: cover;
+  margin-right: 242px;
+  box-shadow: 5px 5px 10px rgba(80, 41, 221, 0.8);
+  border-top-left-radius: 63px;
+  border-bottom-left-radius: 63px;
+
+}
+.fifthpage{
+  position: relative;
+ 
+  width: 100%;
+  height: 100%;
+text-align: center;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: 5px solid black;
+}
+.fifthpage h2{
+  padding-top: 4%;
+}
+.swiper {
+  display: flex;
+  width: 93%;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  
+}
+
+.swiper-slide {
+  border: 1px solid black;
+  width: 580px;
+  height: 230px;
+  padding-top: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: rgb(186, 178, 236);
+  filter:blur(3px);
+  
+}
+.swiper-slide-active{
+  filter:blur(0px);
+
+}
+
+
+.swiper-text {
+  display: block;
+  width: 100%;
+  
+}
+.swiper-image img{
+  height:40%;
+  padding-top:4%;
+  border-radius: 40%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9);
+  
+}
+.sixthpage{
+  padding-top: 79px;
+  
+}
+.placement{
+  display: flex;
+  
+  padding-left: 87px;
+  
+}
+
+.place video{
+    width: 600px;
+    height: 334px;
+    padding-bottom: 4px;
+    box-shadow: 10px 10px 10px rgba(106, 58, 218, 0.9);
+
+}
+.placeimage{
+  display: flex;
+  padding-top: 55px;
+  
+  
+  
+}
+.placeimage img{
+  width:250px;
+  height:150px;
+  background-position: center;
+  background-size: cover;
+  margin-right: 103px;
+  border-radius: 14px;
+  box-shadow: 10px 10px 10px rgba(106, 1, 1, 0.9);
+
+}
+.news-content{
+  text-align: center;
+  padding-top: 120px;
+ 
+}
+.news-box{
+  display: flex;
+  padding-top: 76px;
+  
+}
+.news-wrap{
+  margin-right: 2px;
+  padding-right: 4px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  
+}
+.news-wrap img{
+  width:85%;
+  height: 256%;
+  box-shadow: 10px 10px 10px rgba(208, 141, 141, 0.9);
+  border-radius:13%;
+ 
+ 
+ 
+
+}
+.news-text{
+  position: absolute;
+  width:300px;
+  height:213px;
+  text-align: start;
+  padding-top: 4px;
+  top:210px;
+  right:40px;
+  backdrop-filter:blur(3px);
+  background-color: rgba(255,255,255,0.7);
+  border: 5px solid rgb(247, 246, 246);
+  margin-right: 45px;
+  border-radius: 4%;
+  box-shadow: 6px 7px 19px rgba(78, 30, 181, 0.8);
+  
+  
+}
+.news-text h4{
+  padding-left: 8%;
+}
+.news-text date {
+  padding-left: 8%;
+
+}
+.news-text p {
+  padding-left: 8%;
+
+}
+.footer{
+  background-color: rgba(153, 140, 234, 0.3);
+  height:45%;
+}
+.footer-cointainer{
+  display: grid;
+  grid-template-columns: 1fr 2.5fr 3.5fr 5fr;
+  margin-top: 455px;
+}
+.logo {
+  text-align: start;
+  margin-left: 174px;
+ 
+ 
+}
+.logo h1{
+  font-size:234%;
+  font-weight:900;
+  color:rgb(81, 81, 203);
+
+}
+.logo span{
+  color:rgb(177, 79, 79);
+}
+
+.link{
+  margin-left: 174px;
+  margin-right: 10px;
+  padding-top: 23px;
+ 
+  
+}
+.link h4{
+  font-weight: lighter;
+}
+.link a{
+  padding-top:45px;
+}
+.emailplace{
+  padding-top: 23px;
+}
+.emailplace h4{
+  font-weight: lighter;
+}
+input[type="email"] {
+  height:34px;
+}
+form button{
+  height:34px;
+  width:83px;
+}
+@media (max-width:600px){
+  .front-page{
+     width: 600%;
+     
+     border: 5px solid black;
+     padding-right: 24%;
+    
+  }
+  
+  .front-text{
+    font-size: 11px;
+    
+  
+  }
+  
+  .img-one img{
+    height: 13%; 
+    width: 100%;
+    border-radius: 78px;
+    
+    margin-left: 14%;
+    margin-right: 204px;
+  
+  }
+  .secondpage{
+ 
+    width:100%;
+    
+    border: 5px solid black;
+    
+  
+    
+  }
+  
+  
+  .column{
+    
+    display:flex;
+   margin-right: 14%;
+   width: 100%;
+   
+    
+    
+    
+   
+    
+  }
+  
+  
+  .boxes{
+    width:100%;
+    margin-left: 2%;
+    
+   
+    
+    
+  }
+  
+  .boxes img{
+    display:block;
+    width:69%;
+    height:30%;
+    border-radius: 11px;
+    box-shadow: 5px 5px 10px rgba(36, 10, 140, 0.8);
+  }
+  
+  
+  .boxes p{
+    width: 53%;
+    font-size: 11%;
+  }
+  .boxes h5{
+    padding-top: 7%;
+    width:169%;
+    text-align: left;
+    font-size: 12%;
+  }
+  .boxes h4{
+    width:53%;
+    margin-top: 1px;
+    font-size: 42%;
+    
+   
+   
+  }
+  
+  .boxes hr{
+    box-shadow: 5px 5px 10px rgba(123, 6, 6, 0.8);
+    width:30%;
+  }
+   .content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top:6% ;
+    padding-right: 0%;
+    
+    column-gap: 17%;
+   
+  
+    
+   
+    
+   } 
+   .content img{
+    padding-left: 50%;
+    border-radius: 67px;
+    box-shadow: 11px 1px 10px rgba(195, 97, 97, 0.8);
+    height: 60% ; 
+    width: 180%;
+   
+    
+   }
+   .link-text h2{
+    
+    font-size: 13px;
+    
+  
+   }
+   .link-text{
+    width:100%;
+    padding-left:84%;
+    padding-top:13%;
+    text-align: start;
+ 
+  
+   }
+   
+   
+  .tlink{
+    padding: 1px 1px;
+  }
+    
+   
+   
+    
+  .ver-line{
+    float: left;
+    width: 23%;
+    
+    border-right: 1px solid rgb(118, 113, 113);
+    
+  
+  }
+  .click{
+    display: flex;
+    height:9%;
+    margin-left: 19px;
+    width:170px;
+    margin-top:40% ;
+    align-items: center;
+   
+   
+    
+  
+    
+    
+  }
+  .click a {
+    position: relative;
+    border: 3px solid black;
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+    padding:10px 10px;
+   
+  }
+ 
+  .thirdpage{
+    width: 100%;
+    text-align:center;
+    margin-bottom: 108px;
+    padding-top: 60px;
+    
+  }
+  .imgbox{
+    display: flex;
+    padding-left: 90px; 
+    padding-top: 80px;
+    
+    
+    
+    
+  }
+  .infra img{
+    width: 100%;
+      height:100%;
+      display: inline-block;
+      padding-right: 1px;
+    
+   
+   
+     
+    
+    
+    
+  
+  }
+  .infra{
+    position: relative;
+   
+   margin-right: 50px;
+    width:400px;
+  }
+  .infra:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(87, 63, 184, 0.8);
+    
+  }
+  .infra .textbox{
+    position: absolute;
+    bottom: 0;
+    height: 40%;
+   padding: 1.5%;
+    width: 95%;
+    padding-top:5px;
+    border: 2px solid black;
+    background: black;
+    background: rgba(0, 0, 0, 0.7);
+    color:white;
+    text-align: start;
+    cursor: pointer;
+    font-size: 70%;
+  
+  }
+ 
+  .click1{
+    
+    height:1%;
+    margin-left: 42%;
+    width:22%;
+    margin-top:12% ;
+   
+   
+    
+  
+    
+    
+  }
+  .click1 a {
+    position: relative;
+    border: 3px solid black;
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+    padding:10px 10px;
+   
+  }
+  .fourthpage{
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 123px;
+    width: 100%;
+    
+    
+  }
+ 
+  .abtlecturer h2{
+    text-align: left;
+    padding-left: 14%;
+    font-size: 93%;
+    font-weight:bolder;
+   
+    
+  }
+  .accclass{
+    margin-top: 10%;
+   
+    width: 70%;
+    padding-right: 50%;
+    
+    
+   
+  }
+  .accordion{
+    background-color: rgb(235, 223, 223);
+    width: 80%;
+    height: 10%;
+    text-align: left;
+   margin-left: 20%;
+    margin-top: 18px;
+    font-size: 50%;
+   cursor: pointer;
+   transition: 0.2s;
+   box-shadow: 5px 5px 10px rgba(124, 25, 5, 0.8);
+  
+    
+  }
+  .active, .accordion:hover{
+    height: 7%;
+    
+  }
+  
+  .teachertext{
+    margin-left:20%;
+    width: 70%;
+    text-align: left;
+    display: none;
+   
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    
+      
+  }
+  .imglecturer img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-right: 293%;
+    box-shadow: 5px 5px 10px rgba(80, 41, 221, 0.8);
+    border-top-left-radius: 63px;
+    border-bottom-left-radius: 63px;
+    
+  }
+  .fifthpage{
+    position: relative;
+   
+    width: 100%;
+    height: 100%;
+  text-align: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 5px solid black;
+  }
+  .fifthpage h2{
+    padding-top: 4%;
+    width:100% ;
+  }
+  .swiper {
+    
+    width: 93%;
+    
+    
+  }
+  
+  .swiper-slide {
+    border: 1px solid black;
+    width: 50%;
+    height: 290px;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: rgb(186, 178, 236);
+    filter:blur(3px);
+    
+  }
+  .swiper-slide-active{
+    filter:blur(0px);
+  
+  }
+  
+  
+  .swiper-text {
+    display: block;
+    width: 100%;
+    
+  }
+  .swiper-image img{
+    height:40%;
+    padding-top:4%;
+    border-radius: 40%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9);
+    
+  }
+  .sixthpage{
+    padding-top: 79px;
+    width: 100%;
+    
+  }
+  .placement{
+    display: flex;
+    
+    padding-left: 20px;
+    
+  }
+ 
+  .place video{
+      width: 50%;
+      height: 50%;
+      padding-bottom: 4px;
+      box-shadow: 10px 5px 10px rgba(106, 58, 218, 0.9);
+      padding-left: 30px;
+  
+  }
+  .placeimage{
+    display: flex;
+    padding-top: 55px;
+    
+    
+    
+  }
+  .placeimage img{
+    width:30%;
+    height:30%;
+    background-position: center;
+    background-size: cover;
+    margin-right: 103px;
+    border-radius: 14px;
+    box-shadow: 10px 10px 10px rgba(106, 1, 1, 0.9);
+  
+  }
+  .news-content{
+    text-align: center;
+    padding-top: 120px;
+    
+   
+  }
+  .news-box{
+    display: flex;
+    padding-top: 76px;
+    
+  }
+  .news-wrap{
+    margin-right: 2px;
+    padding-right: 4px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    
+  }
+  .news-wrap img{
+    width:100%;
+    height: 200%;
+    box-shadow: 10px 10px 10px rgba(208, 141, 141, 0.9);
+    border-radius:13%;
+   
+   
+   
+  
+  }
+  .news-text{
+    position: absolute;
+    width:80%;
+    height:201px;
+    text-align: start;
+    padding-top: 4px;
+    top:71%;
+    right:1px;
+    backdrop-filter:blur(3px);
+    background-color: rgba(255,255,255,0.7);
+    border: 5px solid rgb(247, 246, 246);
+    margin-right: 45px;
+    border-radius: 4%;
+    box-shadow: 6px 7px 19px rgba(78, 30, 181, 0.8);
+    
+    
+  }
+  .news-text h4{
+    padding-left: 8%;
+  }
+  .news-text date {
+    padding-left: 8%;
+  
+  }
+  .news-text p {
+    padding-left: 8%;
+  
+  }
+  .footer{
+    background-color: rgba(153, 140, 234, 0.3);
+    height:45%;
+    width: 100%;
+  }
+  .footer-cointainer{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 3.5fr 5fr;
+    margin-top: 455px;
+  }
+  .logo {
+    text-align: start;
+    margin-left: 44px;
+   
+   
+  }
+  .logo h1{
+    font-size:177%;
+    font-weight:900;
+    color:rgb(81, 81, 203);
+  
+  }
+  .logo span{
+    color:rgb(177, 79, 79);
+  }
+  .logo p {
+    font-size:40%;
+   
+  }
+  .link{
+    margin-left: 33%;
+    margin-right: 10px;
+    padding-top: 23px;
+   
+    
+  }
+  .link h4{
+    font-weight: lighter;
+    font-size: 90%;
+  }
+  .link a{
+    padding-top:45px;
+    font-size: 70%;
+  }
+  .emailplace{
+    padding-top: 23px;
+  }
+  .emailplace h4{
+    font-weight: lighter;
+    font-size: 90%;
+  }
+  .emailplace{
+    font-size: 70%;
+  }
+  input[type="email"] {
+    height:34px;
+  }
+  form button{
+    height:34px;
+    width:83px;
+  }
+  
+}
